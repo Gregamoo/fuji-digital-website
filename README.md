@@ -1,1 +1,1 @@
-# fuji-digital-website
+# Fuji-digital-website
