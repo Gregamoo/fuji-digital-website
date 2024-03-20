@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+        run: npm install
       - name: Set up AWS CLI
         uses: aws-actions/configure-aws-credentials@v1
         with:
