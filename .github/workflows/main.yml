@@ -18,5 +18,4 @@ jobs:
           aws-region: eu-west-1
 
       - name: Deploy to AWS S3
-        run: |
-          aws s3 sync . s3://fujidigital.co.uk --delete
+        run: npm run prod
