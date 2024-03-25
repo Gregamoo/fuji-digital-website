@@ -1,0 +1,13 @@
+.Logo {
+  height: 7rem;
+}
+
+.textLogo {
+  height: 70%;
+}
+
+.LogoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 8rem);
+  align-items: center;
+}
