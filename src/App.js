@@ -1,9 +1,8 @@
+import "./App.css";
+import * as React from "react";
+
 function App() {
-  return (
-    <div>
-      <h1>Fuji Digital.</h1>
-    </div>
-  );
+  return <div className="background"></div>;
 }
 
 export default App;
