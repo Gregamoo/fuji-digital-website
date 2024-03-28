@@ -1,0 +1,14 @@
+.Logo {
+  height: 5rem;
+}
+
+.textLogo {
+  height: 4rem;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10%;
+}

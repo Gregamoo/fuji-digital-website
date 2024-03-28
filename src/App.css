@@ -1,7 +1,4 @@
-.body {
-  background-color: #13072e;
-  width: 100vw;
-  height: 100vh;
+.header {
   padding: 1.5rem 2rem;
   display: flex;
   align-items: flex-start;
@@ -11,4 +8,18 @@
     justify-content: normal;
     padding: 1rem 4rem;
   }
+}
+
+.body {
+  padding: 0rem 2.5rem;
+
+  @media screen and (min-width: 768px) {
+    padding: rem 4rem;
+  }
+}
+
+h1,
+p {
+  font-family: "Poppins", sans-serif;
+  color: #ebf0f7;
 }
