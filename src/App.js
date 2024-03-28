@@ -4,7 +4,7 @@ import Logo from "./components/Logo";
 
 function App() {
   return (
-    <div className="background">
+    <div className="body">
       <Logo />
     </div>
   );
