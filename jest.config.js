@@ -7,6 +7,6 @@ module.exports = {
   },
   testEnvironment: "jsdom",
   moduleNameMapper: {
-    "\\.(css|png|less)$": "<rootDir>/src/mocks/defaultFileMock.js",
+    "\\.(css|png|svg|less)$": "<rootDir>/src/mocks/defaultFileMock.js",
   },
 };
