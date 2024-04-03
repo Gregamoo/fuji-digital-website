@@ -19,7 +19,7 @@ function App() {
               alt="Two cartoon people discussing work over a computer"
               className="designingImage"
             />
-            <div>
+            <div className="textContainer">
               <h1>Under Construction</h1>
               <p>We are currently working hard on making an amazing website.</p>
               <p>Stay tuned...</p>

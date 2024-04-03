@@ -23,27 +23,42 @@
   flex-direction: column;
   @media screen and (min-width: 768px) {
     flex-direction: row-reverse;
+    justify-content: space-around;
   }
 }
 
 .designingImage {
   height: 11rem;
   @media screen and (min-width: 768px) {
-    height: 20rem;
+    height: 30vw;
   }
 }
 
+.textContainer {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 h1 {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   color: #ebf0f7;
   line-height: 1.2;
+  @media screen and (min-width: 1200px) {
+    font-size: 2rem;
+  }
 }
 p {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #ebf0f7;
   line-height: 1.2;
+  @media screen and (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
 }
 
 .pinkBlob {
@@ -51,6 +66,7 @@ p {
   display: block;
   margin: auto;
   @media screen and (min-width: 768px) {
-    margin: 0;
+    margin: 1rem 0;
+    height: 8vw;
   }
 }
