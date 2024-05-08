@@ -2,15 +2,21 @@ import * as React from "react";
 import "./App.css";
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
-import pinkBlobImage from "./images/Pink Blob.svg";
+import pinkCharacterImage from "./images/Pink Blob.svg";
 import designingImage from "./images/Designing.svg";
+import fujiDigitalBlobs from "./images/Fuji-Digital-Blobs.svg";
 
 function App() {
   return (
-    <>
+    <div className="pageStyling">
       <div className="header">
         <Logo />
       </div>
+      <img
+        src={fujiDigitalBlobs}
+        alt="A blue and pink blob"
+        className="blobStyling"
+      />
       <div className="body">
         <Card>
           <div className="cardLayout">
@@ -24,7 +30,7 @@ function App() {
               <p>We are currently working hard on making an amazing website.</p>
               <p>Stay tuned...</p>
               <img
-                src={pinkBlobImage}
+                src={pinkCharacterImage}
                 alt="A Pink circle with a happy face with its arms in the air"
                 className="pinkBlob"
               />
@@ -32,7 +38,7 @@ function App() {
           </div>
         </Card>
       </div>
-    </>
+    </div>
   );
 }
 
