@@ -2,9 +2,9 @@ import * as React from "react";
 import "./App.css";
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
-import pinkCharacterImage from "./images/Pink Blob.svg";
-import designingImage from "./images/Designing.svg";
-import fujiDigitalBlobs from "./images/Fuji-Digital-Blobs.svg";
+import pinkCharacterImage from "./images/fujits/pink-round-short-fujit.svg";
+import designingImage from "./images/decorative-images/designing.svg";
+import fujiDigitalBlobs from "./images/decorative-blobs/fuji-digital-blobs.svg";
 
 function App() {
   return (
