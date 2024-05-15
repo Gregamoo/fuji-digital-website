@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Logo.css";
-import logo from "../../images/Fuji Digital Logo.png";
-import textLogo from "../../images/FUJI DIGITAL text logo WHITE.svg";
+import logo from "../../images/logo/fuji-digital-logo.svg";
+import textLogo from "../../images/logo/fuji-digital-text-logo-white.svg";
 
 function Logo() {
   return (

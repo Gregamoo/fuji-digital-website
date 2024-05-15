@@ -2,9 +2,9 @@ import * as React from "react";
 import "./App.css";
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
-import pinkCharacterImage from "./images/Pink Blob.svg";
-import designingImage from "./images/Designing.svg";
-import fujiDigitalBlobs from "./images/Fuji-Digital-Blobs.svg";
+import pinkRoundShortFujit from "./images/fujits/pink-round-short-fujit.svg";
+import designingImage from "./images/decorative-images/designing.svg";
+import pinkPurpleDecorativeBlobs from "./images/decorative-blobs/pink-purple-decorative-blobs.svg";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Logo />
       </div>
       <img
-        src={fujiDigitalBlobs}
+        src={pinkPurpleDecorativeBlobs}
         alt="A blue and pink blob"
         className="blobStyling"
       />
@@ -30,7 +30,7 @@ function App() {
               <p>We are currently working hard on making an amazing website.</p>
               <p>Stay tuned...</p>
               <img
-                src={pinkCharacterImage}
+                src={pinkRoundShortFujit}
                 alt="A Pink circle with a happy face with its arms in the air"
                 className="pinkBlob"
               />
