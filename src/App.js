@@ -1,7 +1,10 @@
 import * as React from "react";
 import "./App.css";
+
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
+
 import pinkRoundShortFujit from "./images/fujits/pink-round-short-fujit.svg";
 import designingImage from "./images/decorative-images/designing.svg";
 import pinkPurpleDecorativeBlobs from "./images/decorative-blobs/pink-purple-decorative-blobs.svg";
@@ -10,7 +13,7 @@ function App() {
   return (
     <div className="pageStyling">
       <div className="header">
-        <Logo />
+        <Logo version={"white"} />
       </div>
       <img
         src={pinkPurpleDecorativeBlobs}
@@ -38,6 +41,7 @@ function App() {
           </div>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }
