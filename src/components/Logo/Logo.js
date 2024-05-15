@@ -1,13 +1,21 @@
 import * as React from "react";
 import "./Logo.css";
-import logo from "../../images/logo/fuji-digital-logo.svg";
-import textLogo from "../../images/logo/fuji-digital-text-logo-white.svg";
 
-function Logo() {
+import logo from "../../images/logo/fuji-digital-logo.svg";
+import textLogoWhite from "../../images/logo/fuji-digital-text-logo-white.svg";
+import textLogoPurple from "../../images/logo/fuji-digital-text-logo-purple.svg";
+
+function Logo({ version }) {
+  let textLogo = version === "purple" ? textLogoPurple : textLogoWhite;
   return (
     <div className="LogoContainer">
       <img src={logo} alt="Fuji Digital Logo" className="Logo" />
-      <img src={textLogo} alt="Fuji Digital" className="textLogo" />
+      <img
+        data-testid="textLogo"
+        src={textLogo}
+        alt="Fuji Digital Text Logo"
+        className="textLogo"
+      />
     </div>
   );
 }
