@@ -4,9 +4,10 @@ module.exports = {
   setupFilesAfterEnv: ["./jest-setup.js"],
   transform: {
     "^.+\\.(js|jsx)$": "babel-jest",
+    '^.+\\.svg$': '<rootDir>/src/testing-config/svgTransformer.js',
   },
   testEnvironment: "jsdom",
   moduleNameMapper: {
-    "\\.(css|png|svg|less)$": "<rootDir>/src/mocks/defaultFileMock.js",
+    "\\.(css|png|less)$": "<rootDir>/src/testing-config/defaultFileMock.js",
   },
 };
