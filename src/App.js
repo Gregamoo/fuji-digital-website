@@ -3,7 +3,6 @@ import "./App.css";
 
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
-import Footer from "./components/Footer/Footer";
 
 import pinkRoundShortFujit from "./images/fujits/pink-round-short-fujit.svg";
 import designingImage from "./images/decorative-images/designing.svg";
@@ -41,7 +40,6 @@ function App() {
           </div>
         </Card>
       </div>
-      <Footer />
     </div>
   );
 }
