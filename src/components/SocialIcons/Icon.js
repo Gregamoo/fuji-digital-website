@@ -2,9 +2,9 @@ import LinkedInIcon from "./LinkedInIcon";
 import GitHubIcon from "./GitHubIcon";
 import { StyledIconContainer } from "./Icon.styles.js";
 
-export default () => {
+export default ({ className }) => {
   return (
-    <StyledIconContainer>
+    <StyledIconContainer className={className}>
       <LinkedInIcon />
       <GitHubIcon />
     </StyledIconContainer>
