@@ -62,3 +62,26 @@ export const StyledFooterCopyright = styled.div`
     flex-grow: 1;
   }
 `;
+
+export const StyledFooterBlobs = styled.img`
+  position: absolute;
+  right: -8rem;
+  bottom: 4rem;
+  height: 12rem;
+  @media screen and (min-width: 768px) {
+    bottom: 0;
+    right: -2rem;
+  }
+`;
+
+export const StyledPinkFujit = styled.img`
+  position: absolute;
+  right: 1rem;
+  bottom: 8rem;
+  height: 5rem;
+  @media screen and (min-width: 768px) {
+    bottom: 4rem;
+    right: 6rem;
+    height: 6rem;
+  }
+`;
